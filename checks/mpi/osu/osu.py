@@ -14,6 +14,10 @@ REFERENCE = {
         "bandwidth": (22784, -0.15, 0.2, "MB/s"),
         "latency": (1.9, -0.25, 0.1, "us"),
     },
+    "local-maas:compute-mpi": {
+        "bandwidth": (24650, -0.15, 0.2, "MB/s"),
+        "latency": (1.8, -0.25, 0.1, "us"),
+    },
 }
 
 

@@ -13,10 +13,16 @@ REFERENCE = {
         "azure:nc4as-t4-v3": {
             "gpu_perf_min": (4100, -0.10, 0.25, "Gflop/s"),
         },
+        "local-maas:compute-gpu": {
+            "gpu_perf_min": (33100, -0.10, 0.25, "Gflop/s"),
+        },
     },
     "double": {
         "azure:nc4as-t4-v3": {
             "gpu_perf_min": (250, -0.10, 0.25, "Gflop/s"),
+        },
+        "local-maas:compute-gpu": {
+            "gpu_perf_min": (1115, -0.10, 0.25, "Gflop/s"),
         },
     },
 }

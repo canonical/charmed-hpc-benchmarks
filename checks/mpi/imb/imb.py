@@ -13,6 +13,10 @@ REFERENCE = {
         "pingpong_bw": (22784, -0.15, 0.2, "MB/s"),
         "allreduce_latency": (1.9, -0.25, 0.1, "us"),
     },
+    "local-maas:compute-mpi": {
+        "pingpong_bw": (22500, -0.15, 0.2, "MB/s"),
+        "allreduce_latency": (1.7, -0.25, 0.1, "us"),
+    },
 }
 
 
