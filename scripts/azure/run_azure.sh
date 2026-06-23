@@ -71,7 +71,7 @@ cd /nfs/home
 python3 -m venv reframe-venv
 source reframe-venv/bin/activate
 pip install ReFrame-HPC
-git clone https://github.com/charmed-hpc/charmed-hpc-benchmarks.git
+git clone https://github.com/canonical/charmed-hpc-benchmarks.git
 cd charmed-hpc-benchmarks
 
 # Recursively run all checks

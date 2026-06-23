@@ -49,8 +49,8 @@ dev = [
 ]
 
 [project.urls]
-repository = "https://github.com/charmed-hpc/charmed-hpc-benchmarks.git"
-issues = "https://github.com/charmed-hpc/charmed-hpc-benchmarks/issues"
+repository = "https://github.com/canonical/charmed-hpc-benchmarks.git"
+issues = "https://github.com/canonical/charmed-hpc-benchmarks/issues"
 
 
 # Spell checking tools configuration

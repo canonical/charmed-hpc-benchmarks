@@ -82,7 +82,7 @@ resource "juju_model" "charmed-hpc" {
 }
 
 module "nfs-share" {
-  source = "git::https://github.com/charmed-hpc/charmed-hpc-terraform//modules/azure-managed-nfs"
+  source = "git::https://github.com/canonical/charmed-hpc-terraform//modules/azure-managed-nfs"
 
   name                = "nfs-share"
   resource_group_name = azurerm_resource_group.nfs-group.name
@@ -109,7 +109,7 @@ module "mysql" {
 }
 
 module "slurm" {
-  source = "git::https://github.com/charmed-hpc/charmed-hpc-terraform//modules/slurm"
+  source = "git::https://github.com/canonical/charmed-hpc-terraform//modules/slurm"
 
   model_name = juju_model.charmed-hpc.name
   database_backend = {

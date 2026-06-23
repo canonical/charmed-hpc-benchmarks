@@ -40,7 +40,7 @@ cd charmed-hpc-benchmarks/scripts/azure/
 A sample run follows:
 
 ```shell
-$ git clone https://github.com/charmed-hpc/charmed-hpc-benchmarks
+$ git clone https://github.com/canonical/charmed-hpc-benchmarks
 Cloning into 'charmed-hpc-benchmarks'...
 remote: Enumerating objects: 52, done.
 remote: Counting objects: 100% (52/52), done.

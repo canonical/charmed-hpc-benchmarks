@@ -83,7 +83,7 @@ sudo apt install libcublas12
 The suite can then be launched from the login node with:
 
 ```shell
-git clone https://github.com/charmed-hpc/charmed-hpc-benchmarks
+git clone https://github.com/canonical/charmed-hpc-benchmarks
 cd charmed-hpc-benchmarks
 reframe --config-file config/azure_config.py --checkpath checks --recursive --run --setvar slurmrestd_api_check.slurmrestd_hostname=juju-50c1e0-2
 ```
@@ -96,8 +96,7 @@ To learn more about the benchmarks and Charmed HPC in general, the following res
 
 * [Charmed HPC Documentation](https://canonical-charmed-hpc.readthedocs-hosted.com/latest)
 * [Documentation in `scripts` subdirectories for supported clouds](./scripts)
-* [Open an issue](https://github.com/charmed-hpc/charmed-hpc-benchmarks/issues/new?title=ISSUE+TITLE&body=*Please+describe+your+issue*)
-* [Ask a question on the Charmed HPC GitHub](https://github.com/orgs/charmed-hpc/discussions/categories/q-a)
+* [Open an issue](https://github.com/canonical/charmed-hpc-benchmarks/issues/new?title=ISSUE+TITLE&body=*Please+describe+your+issue*)
 
 ## 🛠️ Development
 
@@ -121,7 +120,6 @@ Here’s some links to help you get started with joining the community:
 * [Contributing guidelines](./CONTRIBUTING.md)
 * [Join the conversation on Matrix](https://matrix.to/#/#hpc:ubuntu.com)
 * [Get the latest news on Discourse](https://discourse.ubuntu.com/c/hpc/151)
-* [Ask and answer questions on GitHub](https://github.com/orgs/charmed-hpc/discussions/categories/q-a)
 
 ## 📋 License
 
