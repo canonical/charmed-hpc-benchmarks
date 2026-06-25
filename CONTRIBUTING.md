@@ -8,16 +8,17 @@ HPC project's contributing guide]. After you've gone through the main contributi
 you can use this guide for specific information on contributing to the `charmed-hpc-benchmarks` repository.
 
 Have any questions? Feel free to ask them in the [Ubuntu High-Performance Computing Matrix chat]
-or on [GitHub Discussions].
+or in the [High-Performance Computing category on the Ubuntu Discourse].
 
-[Charmed HPC project's contributing guide]: https://github.com/canonical/charmed-hpc-docs/blob/main/CONTRIBUTING.md
+[Charmed HPC project's contributing guide]: https://github.com/canonical/hpc-team/blob/main/CONTRIBUTING.md
 [Ubuntu High-Performance Computing Matrix chat]: https://matrix.to/#/#hpc:ubuntu.com
+[High-Performance Computing category on the Ubuntu Discourse]: https://discourse.ubuntu.com/c/project/hpc/151
 
 ## Hacking on `charmed-hpc-benchmarks`
 
 This repository uses [just](https://github.com/casey/just) and [uv](https://github.com/astral-sh/uv) for development
 which provide some useful commands that will help
-you while hacking on `charmed-hpc-terraform`:
+you while hacking on `charmed-hpc-benchmarks`:
 
 ```shell
 # Create a development environment
@@ -49,8 +50,6 @@ just lint
 
 By contributing to `charmed-hpc-benchmarks`, you agree to license your contribution under
 the Apache License 2.0 license.
-
-
 
 ### Adding a new file to `charmed-hpc-benchmarks`
 
